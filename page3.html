@@ -43,44 +43,49 @@
     </nav>
 
     <div class="container">
-        <form class="form-horizontal">
-            <h3>Contact Form</h3>
+         <h3>Contact Form</h3>
             <hr>
+        <form id="contactform" class="form-horizontal">
+           
             <div class="form-group">
-                <label for="name" class="col-md-2 control-label">Name</label>
+                <label for="name" class="col-md-2 control-label">Name<span class="required">*</span></label>
                 <div class="col-md-4">
-                    <input class="form-control" id="name" placeholder="Name">
+                    <input class="form-control" name="name" placeholder="Name">
                 </div>
             </div>
             <div class="form-group">
-                <label for="name" class="col-md-2 control-label">Email</label>
+                <label for="name" class="col-md-2 control-label">Email<span class="required">*</span></label>
                 <div class="col-md-4">
-                    <input type="email" class="form-control" id="email" placeholder="Email">
+                    <input type="email" class="form-control" name="email"  placeholder="Email">
                 </div>
             </div>
             <div class="form-group">
                 <label for="name" class="col-md-2 control-label">URL</label>
                 <div class="col-md-4">
-                    <input type="url" class="form-control" id="url" placeholder="URL">
+                    <input type="url" class="form-control" name="url" placeholder="URL">
                 </div>
             </div>
             <div class="form-group">
                 <label for="name" class="col-md-2 control-label">Comment</label>
                 <div class="col-md-5">
-                    <textarea class="form-control" id="comment" placeholder="Comment..."></textarea>
+                    <textarea class="form-control" name="comment" placeholder="Comment..."></textarea>
                 </div>
             </div>
             <div class="form-group">
                 <div class="col-sm-offset-2 col-sm-10">
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                    <button type="submit" class="btn btn-default">Cancel</button>
+                    <input class="btn btn-primary" type="submit" value="Submit">
+                    <input class="btn btn-default" type="button" value="Cancel">
                 </div>
             </div>
         </form>
-    </div>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    </div>
+    
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+            <script src="http://jqueryvalidation.org/files/dist/jquery.validate.min.js"></script>
     <script src="js/bootstrap.js"></script>
+    <script src="js/scripts.js"></script>
+
 </body>
 <hr>
 <footer>&copy; Company 2015</footer>
