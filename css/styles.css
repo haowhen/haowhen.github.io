@@ -1,0 +1,25 @@
+body{
+    background-color: black;
+}
+
+.main{
+    background-color: red;
+    width: 75%;
+    height: 75%;
+    margin-left: 150px;
+    margin-top: 75px;
+}
+
+.main h3{
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    font-size: 75px
+}
+.main ul{
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    font-size: 20px
+}
