@@ -12,13 +12,7 @@ $(document).ready(function () {
             email:{
                 required: true,
                 email: true
-            },
-            phone:{
-                required: true,
-                digits: true,
-                minlength: 10
             }
-            
         }
     });
 });
